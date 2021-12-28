@@ -107,11 +107,11 @@ export default {
     this.getStartedButton = true
   },
   created(){
-    window.addEventListener('scroll', () => {
-        if (this.animation.sidebar){
-              this.transformSidebar()
-          }
-    });
+    // window.addEventListener('scroll', () => {
+    //     if (this.animation.sidebar){
+    //           this.transformSidebar()
+    //       }
+    // });
        
   }
 }
